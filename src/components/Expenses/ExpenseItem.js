@@ -5,6 +5,7 @@ import ExpenseDate from "./ExpenseDate";
 import "./ExpenseItem.css";
 
 function ExpenseItem(props) {
+  useState();
   let title = props.title;
 
   const clickHandler = () => {
